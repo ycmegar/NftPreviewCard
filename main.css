@@ -1,0 +1,96 @@
+html, body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: hsl(215,55%,11%);
+    padding: 1rem;
+    color: hsl(215, 51%, 70%);;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main{    
+    max-width: 300px;
+    box-shadow: 2px 0px 37px 25px rgba(8,18,31,1);
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: hsl(214,50%,16%);    
+    display: flex;
+    flex-direction:column;
+  }
+.card-img{
+    width: 100%;
+    position:relative;
+}
+.main-image{
+    width: 100%;    
+    border-radius: 10px;
+}
+.pricing{
+    display:flex;
+    justify-content: space-between;
+}
+.icon-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.title{
+    color:white;
+    cursor:pointer;
+}
+
+.profile_img{
+    height:32px;
+    border:solid 2px white;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+.creator{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    height: 1px;
+    border: none;
+    background-color: hsl(215, 32%, 27%);
+    margin: 0 0 18px 0;
+}
+a:link{
+    color:#ffffffab;
+    text-decoration: none;    
+}
+a:hover,
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.main-image:hover{
+   background-color:  hsl(178, 100%, 50%); 
+}
+.icon-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.icon-overlay:hover {
+    opacity: 1;
+}
+
+footer{
+    margin-top:20px;
+}

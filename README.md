@@ -1,1 +1,1 @@
-# NtfPreviewCard
+# nft-preview-card
